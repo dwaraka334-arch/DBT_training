@@ -1,0 +1,58 @@
+version : 2
+
+sources:
+  - name: customers
+    database: ECOMM_RAW
+    schema: CUSTOMERS
+    tables:
+      - name: CUSTOMERS
+      - name: CUSTOMER_ADDRESSES
+
+  - name: ORDERS
+    database: ECOMM_RAW
+    schema: ORDERS
+    tables:
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: ORDER_STATUS_HISTORY
+
+  - name: PRODUCTS
+    database: ECOMM_RAW
+    schema: PRODUCTS
+    tables:
+      - name: PRODUCTS
+
+  - name: INVENTORY
+    database: ECOMM_RAW
+    schema: INVENTORY
+    tables:
+      - name: INVENTORY
+      - name: WAREHOUSES
+
+  - name: MARKETING
+    database: ECOMM_RAW
+    schema: MARKETING
+    tables:
+      - name: CAMPAIGNS
+      - name: CAMPAIGN_CLICKS
+
+  - name: LOGISTICS
+    database: ECOMM_RAW
+    schema: LOGISTICS
+    tables:
+      - name: DELIVERY_EVENTS
+      - name: SHIPMENTS
+
+  - name: FINANCE
+    database: ECOMM_RAW
+    schema: FINANCE
+    tables:
+      - name: INVOICES
+      - name: PAYMENTS
+
+  - name: SUPPORT
+    database: ECOMM_RAW
+    schema: SUPPORT
+    tables:
+      - name: SUPPORT_TICKETS
+            
