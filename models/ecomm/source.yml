@@ -2,57 +2,56 @@ version : 2
 
 sources:
   - name: customers
-    database: ECOMM_RAW
-    schema: CUSTOMERS
+    database: ecomm_raw
+    schema: customers
     tables:
-      - name: CUSTOMERS
-      - name: CUSTOMER_ADDRESSES
+      - name: customers
+      - name: customer_addresses
 
-  - name: ORDERS
-    database: ECOMM_RAW
-    schema: ORDERS
+  - name: orders
+    database: ecomm_raw
+    schema: orders
     tables:
-      - name: ORDERS
-      - name: ORDER_ITEMS
-      - name: ORDER_STATUS_HISTORY
+      - name: orders
+      - name: order_items
+      - name: order_status_history
 
-  - name: PRODUCTS
-    database: ECOMM_RAW
-    schema: PRODUCTS
+  - name: products
+    database: ecomm_raw
+    schema: products
     tables:
-      - name: PRODUCTS
+      - name: products
 
-  - name: INVENTORY
-    database: ECOMM_RAW
-    schema: INVENTORY
+  - name: inventory
+    database: ecomm_raw
+    schema: inventory
     tables:
-      - name: INVENTORY
-      - name: WAREHOUSES
+      - name: inventory
+      - name: warehouses
 
-  - name: MARKETING
-    database: ECOMM_RAW
-    schema: MARKETING
+  - name: marketing
+    database: ecomm_raw
+    schema: marketing
     tables:
-      - name: CAMPAIGNS
-      - name: CAMPAIGN_CLICKS
+      - name: campaigns
+      - name: campaign_clicks
 
-  - name: LOGISTICS
-    database: ECOMM_RAW
-    schema: LOGISTICS
+  - name: logistics
+    database: ecomm_raw
+    schema: logistics
     tables:
-      - name: DELIVERY_EVENTS
-      - name: SHIPMENTS
+      - name: delivery_events
+      - name: shipments
 
-  - name: FINANCE
-    database: ECOMM_RAW
-    schema: FINANCE
+  - name: finance
+    database: ecomm_raw
+    schema: finance
     tables:
-      - name: INVOICES
-      - name: PAYMENTS
+      - name: invoices
+      - name: payments
 
-  - name: SUPPORT
-    database: ECOMM_RAW
-    schema: SUPPORT
+  - name: support
+    database: ecomm_raw
+    schema: support
     tables:
-      - name: SUPPORT_TICKETS
-            
+      - name: support_tickets
