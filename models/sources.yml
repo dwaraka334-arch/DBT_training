@@ -8,7 +8,6 @@ sources:
         - name: CUSTOMERS
         - name: ORDERS
 
-sources:
     - name: STRIPE
       database : RAW
       schema: STRIPE
