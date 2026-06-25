@@ -8,4 +8,6 @@ select
     avg(days_since_last_order) as days_since_last_order
 from {{ ref('dim_customers')}} dc
 where customer_id is not null
+group by 1,2
+order by total_revenue desc
 
