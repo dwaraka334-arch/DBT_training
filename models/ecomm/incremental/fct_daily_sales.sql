@@ -7,8 +7,7 @@
 }}
 
 select
-    {{ dbt_utils.generate_surrogate_key(['order_date']) }}
-                                        as daily_sales_id,
+    {{ dbt_utils.generate_surrogate_key(['order_date']) }}  as daily_sales_id,
     order_date,
     count(order_id)                     as total_orders,
     count(case when status = 'completed'
