@@ -1,0 +1,15 @@
+version : 2
+
+sources:
+    - name: raw
+      database : raw
+      schema: jaffle_shop
+      tables:
+        - name: customers
+        - name: order
+
+    - name: stripe
+      database : raw
+      schema: strioe
+      tables:
+        - name: payment        
